@@ -1,0 +1,87 @@
+/* TODO: Hacer responsive */
+
+/* Pantallas */
+@media screen and (min-width: 1921px) {
+  .main {
+    font-size: 1.875rem;
+  }
+}
+
+/* Escritorio grande */
+@media screen and (max-width: 1920px) {
+  .main {
+    font-size: 1.5rem;
+  }
+}
+
+/* Escritorio medio */
+@media screen and (max-width: 1440px) {
+  .main {
+    font-size: 1.125rem;
+  }
+}
+
+/* Escritorio portatil */
+@media screen and (max-width: 1366px) {
+  .main {
+    font-size: 1.1rem;
+  }
+}
+
+/* Movil grande */
+@media screen and (max-width: 720px) {
+  .main {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1280px) and (orientation: landscape) {
+  .main {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    width: 70% !important;
+  }
+}
+
+/* Movil medio */
+@media screen and (max-width: 411px) {
+  .main {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 731px) and (orientation: landscape) {
+  .main {
+    font-size: 0.875rem;
+  }
+
+  .content {
+    height: 85%;
+  }
+}
+
+/* Movil estandar */
+@media screen and (max-width: 375px) {
+  .main {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (max-width: 667px) and (orientation: landscape) {
+  .main {
+    font-size: 0.75rem;
+  }
+}
+
+/* Movil pequeño */
+@media screen and (max-width: 360px) {
+  .main {
+    font-size: 0.75rem;
+  }
+}
